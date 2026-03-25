@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480">
+  <rect width="320" height="480" fill="#84a98c" rx="20"/>
+  <circle cx="104" cy="170" r="54" fill="#cad2c5"/>
+  <circle cx="210" cy="170" r="54" fill="#52796f"/>
+  <text x="34" y="350" fill="#1b4332" font-size="38" font-family="Georgia, serif" font-weight="700">La tregua</text>
+  <text x="34" y="392" fill="#2f3e46" font-size="18" font-family="Arial, sans-serif">Mario Benedetti</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480">
+  <rect width="320" height="480" fill="#f8f9fa" rx="20"/>
+  <path d="M54 184 C88 132, 232 132, 266 184 C232 236, 88 236, 54 184 Z" fill="none" stroke="#adb5bd" stroke-width="8"/>
+  <line x1="64" y1="264" x2="256" y2="104" stroke="#495057" stroke-width="8"/>
+  <text x="30" y="356" fill="#212529" font-size="24" font-family="Georgia, serif" font-weight="700">Ensayo sobre</text>
+  <text x="30" y="388" fill="#212529" font-size="24" font-family="Georgia, serif" font-weight="700">la ceguera</text>
+  <text x="30" y="428" fill="#6c757d" font-size="18" font-family="Arial, sans-serif">José Saramago</text>
+</svg>

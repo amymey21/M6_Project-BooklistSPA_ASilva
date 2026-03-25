@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480">
+  <rect width="320" height="480" fill="#2b2d42" rx="20"/>
+  <path d="M40 278 L280 164" stroke="#ef233c" stroke-width="8"/>
+  <path d="M40 318 L280 204" stroke="#8d99ae" stroke-width="4"/>
+  <text x="32" y="364" fill="#edf2f4" font-size="24" font-family="Verdana, sans-serif" font-weight="700">Los detectives</text>
+  <text x="32" y="396" fill="#edf2f4" font-size="24" font-family="Verdana, sans-serif" font-weight="700">salvajes</text>
+  <text x="32" y="434" fill="#d8dbe2" font-size="18" font-family="Arial, sans-serif">Roberto Bolaño</text>
+</svg>

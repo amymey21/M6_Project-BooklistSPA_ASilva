@@ -5,7 +5,8 @@
     "autor": "Gabriel García Márquez",
     "precio": 12000,
     "stock": 5,
-    "descripcion": "Novela emblemática del realismo mágico."
+    "descripcion": "Novela emblemática del realismo mágico.",
+    "portada": "/covers/cien-anos-de-soledad.svg"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "autor": "Julio Cortázar",
     "precio": 10000,
     "stock": 8,
-    "descripcion": "Obra experimental que redefine la narrativa."
+    "descripcion": "Obra experimental que redefine la narrativa.",
+    "portada": "/covers/rayuela.svg"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "autor": "Miguel de Cervantes",
     "precio": 15000,
     "stock": 3,
-    "descripcion": "Clásico universal de la literatura española."
+    "descripcion": "Clásico universal de la literatura española.",
+    "portada": "/covers/don-quijote-de-la-mancha.svg"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "autor": "Mario Vargas Llosa",
     "precio": 9500,
     "stock": 6,
-    "descripcion": "Novela sobre la vida militar en Perú."
+    "descripcion": "Novela sobre la vida militar en Perú.",
+    "portada": "/covers/la-ciudad-y-los-perros.svg"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "autor": "Juan Rulfo",
     "precio": 8000,
     "stock": 10,
-    "descripcion": "Novela corta fundamental del boom latinoamericano."
+    "descripcion": "Novela corta fundamental del boom latinoamericano.",
+    "portada": "/covers/pedro-paramo.svg"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "autor": "Jorge Luis Borges",
     "precio": 11000,
     "stock": 7,
-    "descripcion": "Colección de cuentos filosóficos y fantásticos."
+    "descripcion": "Colección de cuentos filosóficos y fantásticos.",
+    "portada": "/covers/el-aleph.svg"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "autor": "Carlos Ruiz Zafón",
     "precio": 13000,
     "stock": 4,
-    "descripcion": "Novela ambientada en la Barcelona de posguerra."
+    "descripcion": "Novela ambientada en la Barcelona de posguerra.",
+    "portada": "/covers/la-sombra-del-viento.svg"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "autor": "Jorge Luis Borges",
     "precio": 11500,
     "stock": 9,
-    "descripcion": "Cuentos que exploran laberintos y universos paralelos."
+    "descripcion": "Cuentos que exploran laberintos y universos paralelos.",
+    "portada": "/covers/ficciones.svg"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "autor": "Ernesto Sabato",
     "precio": 9000,
     "stock": 6,
-    "descripcion": "Novela psicológica sobre obsesión y soledad."
+    "descripcion": "Novela psicológica sobre obsesión y soledad.",
+    "portada": "/covers/el-tunel.svg"
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "autor": "Roberto Bolaño",
     "precio": 12500,
     "stock": 5,
-    "descripcion": "Novela que retrata la vida bohemia en México."
+    "descripcion": "Novela que retrata la vida bohemia en México.",
+    "portada": "/covers/los-detectives-salvajes.svg"
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "autor": "Isabel Allende",
     "precio": 14000,
     "stock": 7,
-    "descripcion": "Saga familiar con elementos de realismo mágico."
+    "descripcion": "Saga familiar con elementos de realismo mágico.",
+    "portada": "/covers/la-casa-de-los-espiritus.svg"
   },
   {
     "id": 12,
@@ -93,7 +104,8 @@
     "autor": "José Saramago",
     "precio": 13500,
     "stock": 4,
-    "descripcion": "Metáfora sobre la fragilidad de la sociedad."
+    "descripcion": "Metáfora sobre la fragilidad de la sociedad.",
+    "portada": "/covers/ensayo-sobre-la-ceguera.svg"
   },
   {
     "id": 13,
@@ -101,7 +113,8 @@
     "autor": "Gabriel García Márquez",
     "precio": 12500,
     "stock": 8,
-    "descripcion": "Historia de amor que desafía el paso del tiempo."
+    "descripcion": "Historia de amor que desafía el paso del tiempo.",
+    "portada": "/covers/el-amor-en-los-tiempos-del-colera.svg"
   },
   {
     "id": 14,
@@ -109,15 +122,17 @@
     "autor": "Mario Benedetti",
     "precio": 9500,
     "stock": 6,
-    "descripcion": "Novela sobre la rutina y la esperanza tardía."
+    "descripcion": "Novela sobre la rutina y la esperanza tardía.",
+    "portada": "/covers/la-tregua.svg"
   },
   {
     "id": 15,
     "titulo": "Conversación en La Catedral",
     "autor": "Mario Vargas Llosa",
     "precio": 14500,
-    "stock": 3,
-    "descripcion": "Novela política sobre la dictadura peruana."
+    "stock": 0,
+    "descripcion": "Novela política sobre la dictadura peruana.",
+    "portada": "/covers/conversacion-en-la-catedral.svg"
   },
   {
     "id": 16,
@@ -125,7 +140,8 @@
     "autor": "Gabriel García Márquez",
     "precio": 8500,
     "stock": 10,
-    "descripcion": "Retrato de la espera y la dignidad en la pobreza."
+    "descripcion": "Retrato de la espera y la dignidad en la pobreza.",
+    "portada": "/covers/el-coronel-no-tiene-quien-le-escriba.svg"
   },
   {
     "id": 17,
@@ -133,7 +149,8 @@
     "autor": "Carlos Fuentes",
     "precio": 9000,
     "stock": 5,
-    "descripcion": "Novela corta cargada de misterio y simbolismo."
+    "descripcion": "Novela corta cargada de misterio y simbolismo.",
+    "portada": "/covers/aura.svg"
   },
   {
     "id": 18,
@@ -141,6 +158,7 @@
     "autor": "Adolfo Bioy Casares",
     "precio": 10000,
     "stock": 7,
-    "descripcion": "Novela fantástica sobre inmortalidad y obsesión."
+    "descripcion": "Novela fantástica sobre inmortalidad y obsesión.",
+    "portada": "/covers/la-invencion-de-morel.svg"
   }
 ]

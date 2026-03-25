@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480">
+  <rect width="320" height="480" fill="#1b4332" rx="20"/>
+  <circle cx="160" cy="166" r="88" fill="#2d6a4f" opacity="0.9"/>
+  <circle cx="160" cy="166" r="48" fill="#95d5b2" opacity="0.75"/>
+  <text x="34" y="356" fill="#d8f3dc" font-size="46" font-family="Georgia, serif" font-weight="700">Aura</text>
+  <text x="34" y="398" fill="#b7e4c7" font-size="18" font-family="Arial, sans-serif">Carlos Fuentes</text>
+</svg>
