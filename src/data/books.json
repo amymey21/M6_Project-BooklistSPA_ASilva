@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "precio": 12000,
+    "stock": 5,
+    "descripcion": "Novela emblemática del realismo mágico."
+  },
+  {
+    "id": 2,
+    "titulo": "Rayuela",
+    "autor": "Julio Cortázar",
+    "precio": 10000,
+    "stock": 8,
+    "descripcion": "Obra experimental que redefine la narrativa."
+  },
+  {
+    "id": 3,
+    "titulo": "Don Quijote de la Mancha",
+    "autor": "Miguel de Cervantes",
+    "precio": 15000,
+    "stock": 3,
+    "descripcion": "Clásico universal de la literatura española."
+  },
+  {
+    "id": 4,
+    "titulo": "La ciudad y los perros",
+    "autor": "Mario Vargas Llosa",
+    "precio": 9500,
+    "stock": 6,
+    "descripcion": "Novela sobre la vida militar en Perú."
+  },
+  {
+    "id": 5,
+    "titulo": "Pedro Páramo",
+    "autor": "Juan Rulfo",
+    "precio": 8000,
+    "stock": 10,
+    "descripcion": "Novela corta fundamental del boom latinoamericano."
+  },
+  {
+    "id": 6,
+    "titulo": "El Aleph",
+    "autor": "Jorge Luis Borges",
+    "precio": 11000,
+    "stock": 7,
+    "descripcion": "Colección de cuentos filosóficos y fantásticos."
+  },
+  {
+    "id": 7,
+    "titulo": "La sombra del viento",
+    "autor": "Carlos Ruiz Zafón",
+    "precio": 13000,
+    "stock": 4,
+    "descripcion": "Novela ambientada en la Barcelona de posguerra."
+  },
+  {
+    "id": 8,
+    "titulo": "Ficciones",
+    "autor": "Jorge Luis Borges",
+    "precio": 11500,
+    "stock": 9,
+    "descripcion": "Cuentos que exploran laberintos y universos paralelos."
+  },
+  {
+    "id": 9,
+    "titulo": "El túnel",
+    "autor": "Ernesto Sabato",
+    "precio": 9000,
+    "stock": 6,
+    "descripcion": "Novela psicológica sobre obsesión y soledad."
+  },
+  {
+    "id": 10,
+    "titulo": "Los detectives salvajes",
+    "autor": "Roberto Bolaño",
+    "precio": 12500,
+    "stock": 5,
+    "descripcion": "Novela que retrata la vida bohemia en México."
+  },
+  {
+    "id": 11,
+    "titulo": "La casa de los espíritus",
+    "autor": "Isabel Allende",
+    "precio": 14000,
+    "stock": 7,
+    "descripcion": "Saga familiar con elementos de realismo mágico."
+  },
+  {
+    "id": 12,
+    "titulo": "Ensayo sobre la ceguera",
+    "autor": "José Saramago",
+    "precio": 13500,
+    "stock": 4,
+    "descripcion": "Metáfora sobre la fragilidad de la sociedad."
+  },
+  {
+    "id": 13,
+    "titulo": "El amor en los tiempos del cólera",
+    "autor": "Gabriel García Márquez",
+    "precio": 12500,
+    "stock": 8,
+    "descripcion": "Historia de amor que desafía el paso del tiempo."
+  },
+  {
+    "id": 14,
+    "titulo": "La tregua",
+    "autor": "Mario Benedetti",
+    "precio": 9500,
+    "stock": 6,
+    "descripcion": "Novela sobre la rutina y la esperanza tardía."
+  },
+  {
+    "id": 15,
+    "titulo": "Conversación en La Catedral",
+    "autor": "Mario Vargas Llosa",
+    "precio": 14500,
+    "stock": 3,
+    "descripcion": "Novela política sobre la dictadura peruana."
+  },
+  {
+    "id": 16,
+    "titulo": "El coronel no tiene quien le escriba",
+    "autor": "Gabriel García Márquez",
+    "precio": 8500,
+    "stock": 10,
+    "descripcion": "Retrato de la espera y la dignidad en la pobreza."
+  },
+  {
+    "id": 17,
+    "titulo": "Aura",
+    "autor": "Carlos Fuentes",
+    "precio": 9000,
+    "stock": 5,
+    "descripcion": "Novela corta cargada de misterio y simbolismo."
+  },
+  {
+    "id": 18,
+    "titulo": "La invención de Morel",
+    "autor": "Adolfo Bioy Casares",
+    "precio": 10000,
+    "stock": 7,
+    "descripcion": "Novela fantástica sobre inmortalidad y obsesión."
+  }
+]
