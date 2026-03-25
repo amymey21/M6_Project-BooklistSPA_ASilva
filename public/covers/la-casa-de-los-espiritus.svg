@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480">
+  <rect width="320" height="480" fill="#6d597a" rx="20"/>
+  <path d="M72 284 L160 176 L248 284" fill="#f2e9e4" opacity="0.95"/>
+  <rect x="96" y="284" width="128" height="92" fill="#f2e9e4"/>
+  <circle cx="96" cy="138" r="12" fill="#c9ada7" opacity="0.7"/>
+  <circle cx="140" cy="102" r="8" fill="#c9ada7" opacity="0.7"/>
+  <circle cx="192" cy="132" r="10" fill="#c9ada7" opacity="0.7"/>
+  <text x="32" y="414" fill="#f2e9e4" font-size="24" font-family="Georgia, serif" font-weight="700">La casa de</text>
+  <text x="32" y="444" fill="#f2e9e4" font-size="24" font-family="Georgia, serif" font-weight="700">los espíritus</text>
+</svg>

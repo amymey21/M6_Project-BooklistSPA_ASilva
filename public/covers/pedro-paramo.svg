@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480">
+  <rect width="320" height="480" fill="#6b705c" rx="20"/>
+  <rect x="0" y="300" width="320" height="180" fill="#a5a58d"/>
+  <circle cx="240" cy="104" r="44" fill="#ffe8b6" opacity="0.9"/>
+  <text x="32" y="360" fill="#fff6d6" font-size="34" font-family="Georgia, serif" font-weight="700">Pedro</text>
+  <text x="32" y="398" fill="#fff6d6" font-size="34" font-family="Georgia, serif" font-weight="700">Páramo</text>
+  <text x="32" y="438" fill="#f0ead2" font-size="18" font-family="Arial, sans-serif">Juan Rulfo</text>
+</svg>

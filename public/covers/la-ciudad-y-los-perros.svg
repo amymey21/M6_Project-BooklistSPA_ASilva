@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480">
+  <rect width="320" height="480" fill="#334e68" rx="20"/>
+  <rect x="32" y="80" width="256" height="132" fill="#243b53" rx="14"/>
+  <rect x="32" y="226" width="256" height="132" fill="#102a43" rx="14"/>
+  <text x="44" y="144" fill="#f0b429" font-size="28" font-family="Tahoma, sans-serif" font-weight="700">La ciudad</text>
+  <text x="44" y="182" fill="#f7fafc" font-size="26" font-family="Tahoma, sans-serif">y los perros</text>
+  <text x="44" y="408" fill="#d9e2ec" font-size="18" font-family="Arial, sans-serif">Mario Vargas Llosa</text>
+</svg>

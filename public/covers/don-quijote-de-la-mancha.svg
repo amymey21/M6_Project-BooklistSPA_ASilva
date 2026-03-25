@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480">
+  <rect width="320" height="480" fill="#e9dcc9" rx="20"/>
+  <path d="M84 312 L138 138 L180 312 Z" fill="#2f2a25" opacity="0.9"/>
+  <path d="M158 312 L214 180 L236 312 Z" fill="#594a3f" opacity="0.85"/>
+  <line x1="174" y1="154" x2="252" y2="116" stroke="#2f2a25" stroke-width="6"/>
+  <text x="30" y="372" fill="#2f2a25" font-size="26" font-family="Georgia, serif" font-weight="700">Don Quijote</text>
+  <text x="30" y="404" fill="#2f2a25" font-size="24" font-family="Georgia, serif">de la Mancha</text>
+  <text x="30" y="438" fill="#6f6257" font-size="18" font-family="Arial, sans-serif">Miguel de Cervantes</text>
+</svg>

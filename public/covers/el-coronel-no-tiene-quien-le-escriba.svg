@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480">
+  <rect width="320" height="480" fill="#606c38" rx="20"/>
+  <rect x="72" y="96" width="176" height="132" fill="#fefae0" rx="12"/>
+  <line x1="92" y1="128" x2="228" y2="128" stroke="#bc6c25" stroke-width="4"/>
+  <line x1="92" y1="152" x2="212" y2="152" stroke="#bc6c25" stroke-width="4"/>
+  <line x1="92" y1="176" x2="198" y2="176" stroke="#bc6c25" stroke-width="4"/>
+  <text x="28" y="334" fill="#fefae0" font-size="20" font-family="Georgia, serif" font-weight="700">El coronel no tiene</text>
+  <text x="28" y="362" fill="#fefae0" font-size="20" font-family="Georgia, serif" font-weight="700">quien le escriba</text>
+  <text x="28" y="404" fill="#e9edc9" font-size="18" font-family="Arial, sans-serif">Gabriel García Márquez</text>
+</svg>

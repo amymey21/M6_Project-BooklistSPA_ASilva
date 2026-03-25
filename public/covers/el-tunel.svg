@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480">
+  <rect width="320" height="480" fill="#111827" rx="20"/>
+  <ellipse cx="160" cy="184" rx="98" ry="62" fill="none" stroke="#9ca3af" stroke-width="3"/>
+  <ellipse cx="160" cy="184" rx="72" ry="44" fill="none" stroke="#6b7280" stroke-width="3"/>
+  <ellipse cx="160" cy="184" rx="44" ry="26" fill="none" stroke="#4b5563" stroke-width="3"/>
+  <text x="34" y="352" fill="#f9fafb" font-size="40" font-family="Georgia, serif" font-weight="700">El túnel</text>
+  <text x="34" y="392" fill="#d1d5db" font-size="18" font-family="Arial, sans-serif">Ernesto Sabato</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480">
+  <rect width="320" height="480" fill="#3d405b" rx="20"/>
+  <rect x="52" y="112" width="40" height="188" fill="#f2cc8f"/>
+  <rect x="108" y="86" width="40" height="214" fill="#e07a5f"/>
+  <rect x="164" y="134" width="40" height="166" fill="#81b29a"/>
+  <rect x="220" y="100" width="40" height="200" fill="#f4f1de"/>
+  <text x="28" y="356" fill="#f4f1de" font-size="20" font-family="Georgia, serif" font-weight="700">Conversación en</text>
+  <text x="28" y="384" fill="#f4f1de" font-size="20" font-family="Georgia, serif" font-weight="700">La Catedral</text>
+  <text x="28" y="424" fill="#d9d9d9" font-size="18" font-family="Arial, sans-serif">Mario Vargas Llosa</text>
+</svg>

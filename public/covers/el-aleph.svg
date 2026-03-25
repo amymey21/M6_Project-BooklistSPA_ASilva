@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480">
+  <rect width="320" height="480" fill="#1f2933" rx="20"/>
+  <circle cx="160" cy="180" r="84" fill="none" stroke="#d4af37" stroke-width="4"/>
+  <circle cx="160" cy="180" r="56" fill="none" stroke="#f7d070" stroke-width="2"/>
+  <circle cx="160" cy="180" r="10" fill="#f7d070"/>
+  <text x="34" y="354" fill="#f7d070" font-size="38" font-family="Georgia, serif" font-weight="700">El Aleph</text>
+  <text x="34" y="394" fill="#cbd2d9" font-size="18" font-family="Arial, sans-serif">Jorge Luis Borges</text>
+</svg>

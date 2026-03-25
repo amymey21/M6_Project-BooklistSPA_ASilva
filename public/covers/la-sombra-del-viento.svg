@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480">
+  <rect width="320" height="480" fill="#4f5d75" rx="20"/>
+  <rect x="0" y="340" width="320" height="140" fill="#2d3142"/>
+  <path d="M92 340 C118 280, 182 280, 214 340" fill="none" stroke="#bfc0c0" stroke-width="3"/>
+  <path d="M130 340 L160 232 L188 340" fill="#ef8354" opacity="0.8"/>
+  <text x="30" y="388" fill="#ffffff" font-size="26" font-family="Georgia, serif" font-weight="700">La sombra</text>
+  <text x="30" y="420" fill="#ffffff" font-size="26" font-family="Georgia, serif" font-weight="700">del viento</text>
+  <text x="30" y="452" fill="#d8dbe2" font-size="18" font-family="Arial, sans-serif">Carlos Ruiz Zafón</text>
+</svg>
