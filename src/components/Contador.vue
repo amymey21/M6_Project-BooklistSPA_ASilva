@@ -1,10 +1,10 @@
 <template>
   <div class="contador container p-2 rounded">
-    <h4>Contador: {{ contador }}</h4>
+    <h4> Stock: {{ stock }}</h4>
     <div class="d-grid d-md-block">
-      <button class="btn btn-light" @click="incrementar">+</button>
-      <button class="btn btn-light" @click="decrementar">-</button>
-      <button class="btn btn-light" @click="resetear">Reset</button>
+      <button type="button" class="btn btn-light" @click="incrementar">+</button>
+      <button type="button" class="btn btn-light" @click="decrementar">-</button>
+      <button type="button" class="btn btn-light" @click="resetear">Reset</button>
     </div>
   </div>
 </template>
@@ -12,22 +12,26 @@
 <script>
 export default {
   name: 'Contador',
-  // props: {},
+  props: {
+    stock: {
+      type: Number,
+      required: true
+    }
+  },
   data: function () {
     return {
-      contador: 0
     }
   },
   // computed: {},
   methods: {
     incrementar() {
-      this.contador++;
+      this.$emit('incrementar');
     },
     decrementar() {
-      this.contador--;
+      this.$emit('decrementar');
     },
     resetear() {
-      this.contador = 0;
+      this.$emit('reset');
     }
   },
   // watch: {},
