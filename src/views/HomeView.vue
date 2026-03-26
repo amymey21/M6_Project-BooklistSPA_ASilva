@@ -1,15 +1,21 @@
 <script setup>
 import { ref, onMounted } from 'vue';
-import Catalogue from './Catalogue.vue';
-import Contador from '../components/Contador.vue';
+import Catalogue from '../components/Catalogue.vue';
+import FormIngresarLibro from '@/components/FormIngresarLibro.vue';
+import booksJSON from '@/data/books.json';
 
+const books = ref(booksJSON);
 const mensaje = "Welcome to BookList!";
 const visible = ref(true);
+
+const handlePush = (newBook) => {
+  books.value.push(newBook);
+}
 
 onMounted(() => {
   setTimeout(() => {
     visible.value = false;
-  }, 1900);
+  }, 2000);
 });
 </script>
 
@@ -20,14 +26,14 @@ onMounted(() => {
   </Transition>
 
   <div class="container">
-    <div class="row m-4">
-      <div class="col-7">
+    <div class="row">
+      <div class="col-8">
         <h1>Catálogo</h1>
-        <Catalogue />
+        <Catalogue :books="books" />
       </div>
-      <div class="col-5 border p-2">
-        <Contador />
-        <h3 class="mt-3">Ingresar título</h3>
+      <div class="col-4 border p-2">
+        <h3 class="mt-3">Ingresar título al catálogo</h3>
+        <FormIngresarLibro @libro-agregado="handlePush" />
       </div>
     </div>
   </div>
@@ -52,5 +58,10 @@ h2 {
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+
+.fade-enter-to,
+.fade-leave-from {
+  opacity: 1;
 }
 </style>

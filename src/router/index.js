@@ -13,6 +13,11 @@ const router = createRouter({
       name: "about",
       component: () => import("../views/AboutView.vue"), // Lazy-loaded
     },
+    {
+      path: "/details",
+      name: "details",
+      component: () => import("../views/DetailsView.vue"), // Lazy-loaded
+    },
   ],
 });
 

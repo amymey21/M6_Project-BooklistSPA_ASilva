@@ -17,7 +17,7 @@ nav {
   align-items: center;
   gap: 1rem;
   background-color: #f2f1f1;
-  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 a {
@@ -32,6 +32,6 @@ a {
 }
 
 nav img {
-  height: 50px;
+  height: 55px;
 }
 </style>
