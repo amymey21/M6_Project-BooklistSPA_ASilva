@@ -1,6 +1,8 @@
 <script setup>
 import { computed } from 'vue';
 import { Icon } from '@iconify/vue';
+import { RouterLink } from 'vue-router';
+
 
 const props = defineProps({
   libro: {
@@ -9,10 +11,15 @@ const props = defineProps({
   }
 });
 
+const emit = defineEmits(['delete-book']);
+
 const existencias = computed(() => {
   return props.libro.stock > 0 ? `${props.libro.stock} disponibles` : 'Agotado';
 });
 
+const handleDelete = () => {
+  emit('delete-book', props.libro.id);
+};
 
 </script>
 
@@ -26,9 +33,7 @@ const existencias = computed(() => {
     </div>
     <div class="card-footer justify-content">
       <p class="card-text mt-2"><small class="text-muted">{{ existencias }}</small></p>
-      <button type="button" class="btn btn-primary">
-        <RouterLink to="details"></RouterLink>Ver detalle
-      </button>
+      <RouterLink :to="`/details/${props.libro.id}`" class="btn btn-primary">Ver detalle</RouterLink>
       <button type="button" class="btn btn-danger " @click="handleDelete">
         <Icon icon="lucide:trash-2" />
       </button>
@@ -41,6 +46,12 @@ h5 {
   font-size: 1rem;
   font-weight: bold;
   display: flex;
+}
+
+.btn {
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
 }
 
 button {

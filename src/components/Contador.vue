@@ -1,7 +1,7 @@
 <template>
-  <div class="contador container p-2 rounded">
-    <h4> Stock: {{ stock }}</h4>
-    <div class="d-grid d-md-block">
+  <div class="contador container p-1 rounded">
+    <h4> Stock: {{ modelValue }}</h4>
+    <div class="m-1 d-flex  gap-2">
       <button type="button" class="btn btn-light" @click="incrementar">+</button>
       <button type="button" class="btn btn-light" @click="decrementar">-</button>
       <button type="button" class="btn btn-light" @click="resetear">Reset</button>
@@ -13,25 +13,27 @@
 export default {
   name: 'Contador',
   props: {
-    stock: {
+    modelValue: {
       type: Number,
-      required: true
+      default: 0
     }
   },
-  data: function () {
-    return {
-    }
-  },
+  // data: function () {
+  //   return {
+  //   }
+  // },
   // computed: {},
   methods: {
     incrementar() {
-      this.$emit('incrementar');
+      this.$emit('update:modelValue', this.modelValue + 1);
     },
     decrementar() {
-      this.$emit('decrementar');
+      if (this.modelValue > 0) {
+        this.$emit('update:modelValue', this.modelValue - 1);
+      }
     },
     resetear() {
-      this.$emit('reset');
+      this.$emit('update:modelValue', 0);
     }
   },
   // watch: {},
@@ -44,12 +46,16 @@ export default {
 </script>
 
 <style scoped>
+h4 {
+  font-size: medium;
+  align-self: center;
+}
+
 .contador {
   display: flex;
   text-align: center;
   justify-content: center;
-  gap: 1rem;
-  background-color: #57a1a3;
+  background-color: #77cbce;
   color: white;
 }
 </style>
