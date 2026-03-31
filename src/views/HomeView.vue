@@ -3,16 +3,18 @@ import { ref, onMounted } from 'vue';
 import Catalogue from '../components/Catalogue.vue';
 import FormIngresarLibro from '@/components/FormIngresarLibro.vue';
 import LoginForm from '@/components/LoginForm.vue';
-import { books } from '@/data/books';
+import { books as initBooks } from '@/data/books';
 
 const props = defineProps({ username: String });
 const emit = defineEmits(['update:username']);
 
+const books = ref([])
 const mensaje = "Welcome to BookList!";
 const visible = ref(true);
 
 const handlePush = (newBook) => {
-  books.value.push(newBook);
+  books.value.push(newBook)
+  localStorage.setItem('books', JSON.stringify(books.value))
 }
 
 const handleDelete = (bookId) => {
@@ -23,6 +25,8 @@ onMounted(() => {
   setTimeout(() => {
     visible.value = false;
   }, 2000);
+  const storedBooks = localStorage.getItem('books');
+  books.value = storedBooks ? JSON.parse(storedBooks) : initBooks.value;
 });
 </script>
 
@@ -41,7 +45,7 @@ onMounted(() => {
       <div class="col-4 border p-2">
         <LoginForm :username="props.username" @update:username="emit('update:username', $event)" />
         <h3 class="mt-3">Ingresar título al catálogo</h3>
-        <FormIngresarLibro @libro-agregado="handlePush" />
+        <FormIngresarLibro v-show="username" @libro-agregado="handlePush" />
       </div>
     </div>
   </div>

@@ -55,7 +55,7 @@ h4 {
   display: flex;
   text-align: center;
   justify-content: center;
-  background-color: #77cbce;
+  background-color: #77cbceb3;
   color: white;
 }
 </style>

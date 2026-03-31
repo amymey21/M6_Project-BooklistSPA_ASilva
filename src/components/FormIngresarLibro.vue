@@ -30,8 +30,6 @@ const handleSubmit = () => {
   descripcion.value = '';
   stock.value = 0;
 }
-
-
 </script>
 
 <template>
