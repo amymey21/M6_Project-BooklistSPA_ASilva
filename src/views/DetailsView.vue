@@ -1,12 +1,12 @@
 <script setup>
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
-import booksJSON from '@/data/books.json';
+import { books } from '@/data/books';
 
 const route = useRoute();
 
 const book = computed(() => {
-  return booksJSON.find((b) => b.id === route.params.id);
+  return books.value.find((b) => b.id === route.params.id);
 });
 </script>
 

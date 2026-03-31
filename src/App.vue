@@ -8,7 +8,7 @@ const username = ref('');
 <template>
   <Navbar :username="username" />
   <RouterView v-slot="{ Component }">
-    <component :is="Component" v-model:username="username" />
+    <Component :is="Component" v-model:username="username" />
   </RouterView>
 </template>
 

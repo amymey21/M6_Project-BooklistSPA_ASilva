@@ -54,8 +54,8 @@ const handleSubmit = () => {
         <textarea id="descripcion" v-model="descripcion" class="form-control" rows="2"></textarea>
       </div>
       <div class="mb-3">
-        <label for="stock" class="form-label">N° de ejemplares</label>
-        <Contador v-model="stock" />
+        <label class="form-label">N° de ejemplares</label>
+        <Contador id="stock" v-model="stock" />
       </div>
       <button type="submit" class="btn btn-primary">Ingresar</button>
     </form>

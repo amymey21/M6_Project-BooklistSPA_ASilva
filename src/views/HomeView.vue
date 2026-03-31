@@ -3,16 +3,13 @@ import { ref, onMounted } from 'vue';
 import Catalogue from '../components/Catalogue.vue';
 import FormIngresarLibro from '@/components/FormIngresarLibro.vue';
 import LoginForm from '@/components/LoginForm.vue';
-import booksJSON from '@/data/books.json';
+import { books } from '@/data/books';
 
 const props = defineProps({ username: String });
 const emit = defineEmits(['update:username']);
 
 const mensaje = "Welcome to BookList!";
 const visible = ref(true);
-
-const books = ref(booksJSON);
-
 
 const handlePush = (newBook) => {
   books.value.push(newBook);
