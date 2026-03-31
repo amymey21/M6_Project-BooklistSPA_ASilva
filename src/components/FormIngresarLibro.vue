@@ -8,6 +8,7 @@ const precio = ref(0);
 const descripcion = ref('');
 const stock = ref(0);
 
+
 const emit = defineEmits(['libro-agregado']);
 
 const handleSubmit = () => {
@@ -20,7 +21,8 @@ const handleSubmit = () => {
     stock: stock.value,
     descripcion: descripcion.value,
     portada: '/covers/default-book.svg'
-  }
+  };
+
   emit('libro-agregado', newBook);
   console.log('libro agregado exitosamente')
 
@@ -29,12 +31,12 @@ const handleSubmit = () => {
   precio.value = 0;
   descripcion.value = '';
   stock.value = 0;
-}
+};
 </script>
 
 <template>
   <div>
-    <form @submit.prevent="handleSubmit">
+    <form @submit.prevent="handleSubmit" @keypress.enter="handleSubmit">
       <div class="mb-3">
         <label for="titulo" class="form-label">Título</label>
         <input id="titulo" v-model="titulo" type="text" class="form-control">
@@ -53,9 +55,9 @@ const handleSubmit = () => {
       </div>
       <div class="mb-3">
         <label class="form-label">N° de ejemplares</label>
-        <Contador id="stock" v-model="stock" />
+        <Contador id="stock" v-model:modelValue="stock" />
       </div>
-      <button type="submit" class="btn btn-primary">Ingresar</button>
+      <button class="btn btn-primary">Ingresar</button>
     </form>
   </div>
 </template>

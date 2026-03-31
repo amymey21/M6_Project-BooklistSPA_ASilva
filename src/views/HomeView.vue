@@ -9,8 +9,14 @@ const props = defineProps({ username: String });
 const emit = defineEmits(['update:username']);
 
 const books = ref([])
-const mensaje = "Welcome to BookList!";
-const visible = ref(true);
+
+const message = "Welcome to BookList!";
+const visible = ref(false);
+
+const reloadBooks = () => {
+  const storedBooks = localStorage.getItem('books');
+  books.value = storedBooks ? JSON.parse(storedBooks) : initBooks.value;
+}
 
 const handlePush = (newBook) => {
   books.value.push(newBook)
@@ -19,21 +25,26 @@ const handlePush = (newBook) => {
 
 const handleDelete = (bookId) => {
   books.value = books.value.filter((book) => book.id !== bookId);
+  localStorage.setItem('books', JSON.stringify(books.value));
 }
 
 onMounted(() => {
-  setTimeout(() => {
-    visible.value = false;
-  }, 2000);
-  const storedBooks = localStorage.getItem('books');
-  books.value = storedBooks ? JSON.parse(storedBooks) : initBooks.value;
+  reloadBooks();
+  if (!sessionStorage.getItem('messageShown')) {
+    visible.value = true;
+    setTimeout(() => {
+      visible.value = false;
+      sessionStorage.setItem('messageShown', 'true');
+    }, 2000);
+  }
 });
+
+
 </script>
 
 <template>
-
   <Transition name="fade">
-    <h2 class="" v-if="visible">{{ mensaje }}</h2>
+    <h2 class="" v-if="visible">{{ message }}</h2>
   </Transition>
 
   <div class="container">
@@ -45,7 +56,7 @@ onMounted(() => {
       <div class="col-4 border p-2">
         <LoginForm :username="props.username" @update:username="emit('update:username', $event)" />
         <h3 class="mt-3">Ingresar título al catálogo</h3>
-        <FormIngresarLibro v-show="username" @libro-agregado="handlePush" />
+        <FormIngresarLibro v-show="props.username" @libro-agregado="handlePush" />
       </div>
     </div>
   </div>
